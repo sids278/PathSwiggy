@@ -1,0 +1,15 @@
+# Ignore Visual Studio files
+.vs/
+*.vsidx
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore other unwanted files
+*.log
+*.tmp

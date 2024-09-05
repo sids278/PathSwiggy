@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\dependencyBilling\dependencyBilling\Billing.csproj" />
+    <ProjectReference Include="..\..\Menu\ConsoleApp2\Menu.csproj" />
+    <ProjectReference Include="..\..\Reastaurant\Reastaurant\Customers.csproj" />
+    <ProjectReference Include="..\..\Updated Order class\RestaurantManagement\Orders.csproj" />
+    <ProjectReference Include="..\TableManagementSystem\TableManagementSystem.csproj" />
+  </ItemGroup>
+
+</Project>
